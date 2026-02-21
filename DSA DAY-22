@@ -1,0 +1,18 @@
+class Solution {
+    public int countPrimeSetBits(int left, int right) {
+        int count =0;
+        for(int i=left;i<=right;i++){
+            int res= Integer.bitCount(i);
+            if(is(res)) count++;
+        }
+        return count;
+    }
+    public boolean is(int res){
+        if(res<=1) return false;
+        for(int i=2;i<=Math.sqrt(res);i++){
+             if(res%i==0) return false;
+        }
+        return true ;
+    }
+    
+}
