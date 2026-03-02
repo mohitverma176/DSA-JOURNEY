@@ -7,6 +7,7 @@ This repository contains my complete Data Structures & Algorithms learning journ
 - Strings
 - Linked List
 - Stack & Queue
+- Two Pointers
 - Trees
 - Graphs
 - Dynamic Programming
